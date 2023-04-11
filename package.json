@@ -1,0 +1,16 @@
+{
+  "name": "rtrpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "pnpm run -F @rtrpc/client dev",
+    "server": "pnpm run -F @rtrpc/server start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
