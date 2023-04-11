@@ -23,7 +23,6 @@ export const userRouter = router({
     .input(z.object({ name: z.string() }))
     .mutation((req) => {
       const { input } = req
-
       const user: User = {
         id: `${ Math.random() }`,
         name: input.name
